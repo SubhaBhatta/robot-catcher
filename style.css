@@ -10,7 +10,7 @@ body {
   margin: 20px auto;
   width: 400px;
   height: 500px;
-  background: url('https://i.imgur.com/Uuk4cuB.jpg') center/cover no-repeat;
+  background: #000000;
   border: 4px solid #0ff;
   overflow: hidden;
   border-radius: 10px;
