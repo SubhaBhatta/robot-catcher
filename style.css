@@ -1,0 +1,68 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+  color: #0ff;
+}
+
+#game {
+  position: relative;
+  margin: 20px auto;
+  width: 400px;
+  height: 500px;
+  background: url('https://i.imgur.com/Uuk4cuB.jpg') center/cover no-repeat;
+  border: 4px solid #0ff;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #0ff;
+}
+
+#robot {
+  position: absolute;
+  bottom: 10px;
+  width: 60px;
+  height: 60px;
+  background: url('https://cdn-icons-png.flaticon.com/512/4712/4712035.png') no-repeat center/contain;
+  left: 170px;
+  transition: left 0.1s;
+}
+
+.object {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.bolt {
+  background: url('https://cdn-icons-png.flaticon.com/512/1052/1052987.png') no-repeat center/contain;
+  box-shadow: 0 0 15px #0f0;
+}
+
+.enemy {
+  background: url('https://cdn-icons-png.flaticon.com/512/2892/2892531.png') no-repeat center/contain;
+  box-shadow: 0 0 15px #f00;
+}
+
+#scoreboard {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#health-container {
+  width: 200px;
+  height: 20px;
+  margin: 10px auto;
+  background-color: #222;
+  border: 2px solid #f00;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #f00;
+}
+
+#health-bar {
+  width: 100%;
+  height: 100%;
+  background-color: #f00;
+  border-radius: 3px;
+  transition: width 0.3s;
+}
